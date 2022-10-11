@@ -4,17 +4,18 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - LeftHand
-  - RightHand
+  - Throwable
+  - Enemy
+  - HomeToProtect
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - NoTrespassing
   - Water
   - UI
-  - Player
-  - Interactable
+  - 
+  - 
   - 
   - 
   - 
