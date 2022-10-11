@@ -59,3 +59,8 @@ sysinfo.txt
 crashlytics-build.properties
 
 Assets/Oculus/Spatializer/Plugins/x86_64/AudioPluginOculusSpatializer.dll
+Assets/Oculus/Spatializer/Plugins/x86_64/AudioPluginOculusSpatializer.dll.meta
+Assets/Oculus/Spatializer/Plugins/x86_64.meta
+Assets/Oculus/Spatializer/Plugins.meta
+Assets/Oculus/Spatializer.meta
+Assets/Oculus.meta
