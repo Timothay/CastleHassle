@@ -843,16 +843,16 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings:
       - m_Name: 
-        m_Id: d84309c8-6a21-4fbb-9829-b3dcbd820f53
-        m_Path: <XRHMD>/centerEyePosition
+        m_Id: 3658bc1e-f64f-4469-a86c-c483308a8521
+        m_Path: <HandheldARInputDevice>/devicePosition
         m_Interactions: 
         m_Processors: 
         m_Groups: 
         m_Action: Position
         m_Flags: 0
       - m_Name: 
-        m_Id: 3658bc1e-f64f-4469-a86c-c483308a8521
-        m_Path: <HandheldARInputDevice>/devicePosition
+        m_Id: d84309c8-6a21-4fbb-9829-b3dcbd820f53
+        m_Path: <XRHMD>/centerEyePosition
         m_Interactions: 
         m_Processors: 
         m_Groups: 
@@ -1368,7 +1368,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 6b2a4c9f5ebba2c4ca0b53ea307a3779, type: 2}
+      objectReference: {fileID: 2100000, guid: 3637b758ff163493f8bb8b6d7e96d7ae, type: 2}
     - target: {fileID: 109434732395284509, guid: 65847589f926b734d9eaed6e25f0046b,
         type: 3}
       propertyPath: m_Name
@@ -2040,7 +2040,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 6b2a4c9f5ebba2c4ca0b53ea307a3779, type: 2}
+      objectReference: {fileID: 2100000, guid: 3637b758ff163493f8bb8b6d7e96d7ae, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
 --- !u!4 &1762303252 stripped
