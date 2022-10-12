@@ -40,7 +40,7 @@ public class RagdollManager : MonoBehaviour
     }
     void RagdollModeOff()
     {
-        this.GetComponent<NavMeshAgent>().enabled = false;
+        this.GetComponent<NavMeshAgent>().enabled = true;
         foreach (Collider coll in ragdollColliders)
         {
             coll.enabled = false;

@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Scene
   m_RootView: {fileID: 3}
-  m_MinSize: {x: 875, y: 431}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -34,7 +34,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: NavMeshEditorWindow
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -43,14 +43,14 @@ MonoBehaviour:
     y: 0
     width: 316
     height: 939
-  m_MinSize: {x: 301, y: 381}
+  m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
   - {fileID: 14}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -73,7 +73,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 989
-  m_MinSize: {x: 875, y: 431}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 13773
+  controlID: 66
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 63
+  controlID: 67
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -197,7 +197,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 113
+  controlID: 68
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -637,7 +637,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 1
+      displayed: 0
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -720,9 +720,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.5262504, y: 9.361308, z: -3.890978}
+    m_Target: {x: 4.7318983, y: 10.687216, z: 17.528137}
     speed: 2
-    m_Value: {x: -2.5262504, y: 9.361308, z: -3.890978}
+    m_Value: {x: 4.7318983, y: 10.687216, z: 17.528137}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -769,13 +769,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.005099521, y: 0.93482846, z: -0.3551953, w: -0.015791293}
+    m_Target: {x: 0.13291089, y: 0.07475774, z: -0.00914934, w: 0.98843974}
     speed: 2
-    m_Value: {x: -0.0056313416, y: 0.93464327, z: -0.3551263, w: -0.017190568}
+    m_Value: {x: 0.13140506, y: 0.07475828, z: -0.0090355305, w: 0.98846465}
   m_Size:
-    m_Target: 16.076933
+    m_Target: 24.174284
     speed: 2
-    m_Value: 16.834484
+    m_Value: 23.133286
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -860,10 +860,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 3237}
-      m_SelectedIDs: 901dffff
-      m_LastClickedID: -57968
-      m_ExpandedIDs: 5abafeff40befeff44befeffb4c8feff6cc9feff22dcfeff9a1dffffaa2affffcc2affffd02affffbe2dffffc02dffff8031ffff9031fffff2e8ffff70eaffff2cfbffff
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: aef9ffff
+      m_LastClickedID: -1618
+      m_ExpandedIDs: 8e16ffff3c89ffff4e98ffff8cf9ffffb2f9ffff2cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -929,22 +929,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes/GameScene
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes/GameScene
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Projets Unity\Castle Hassle
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 483}
-    m_SelectedIDs: 847b0000
-    m_LastClickedID: 31620
-    m_ExpandedIDs: 00000000fe7100000072000002720000047200000672000008720000667200006c7200008072000000ca9a3b
+    scrollPos: {x: 0, y: 451}
+    m_SelectedIDs: 10100100
+    m_LastClickedID: 69648
+    m_ExpandedIDs: 000000007e0f0100800f0100820f0100840f0100860f0100880f01000e10010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -972,7 +972,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000fe7100000072000002720000047200000672000008720000
+    m_ExpandedIDs: 000000007e0f0100800f0100820f0100840f0100860f0100880f0100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
