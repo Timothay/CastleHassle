@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8136853711133051650}
   - component: {fileID: 123675735976773990}
   - component: {fileID: 123675735976773985}
+  - component: {fileID: 6996245157351593832}
   m_Layer: 0
   m_Name: tomato
   m_TagString: Untagged
@@ -222,3 +223,16 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
+--- !u!135 &6996245157351593832
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7776332438158453463}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.064688444
+  m_Center: {x: 0.00034296894, y: 0.019083787, z: -0.0010165463}
