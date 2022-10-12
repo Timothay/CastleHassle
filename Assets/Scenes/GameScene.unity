@@ -579,6 +579,16 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Throwable
       objectReference: {fileID: 0}
+    - target: {fileID: 5723365151080888845, guid: 2e5771cfb04b34bcb93b8f6c3043c127,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 5723365151080888845, guid: 2e5771cfb04b34bcb93b8f6c3043c127,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e5771cfb04b34bcb93b8f6c3043c127, type: 3}
 --- !u!1001 &5917462383544922316
