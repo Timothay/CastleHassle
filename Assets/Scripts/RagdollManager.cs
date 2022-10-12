@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.AI;
 public class RagdollManager : MonoBehaviour
 {
     public BoxCollider mainCollider;
@@ -10,6 +10,7 @@ public class RagdollManager : MonoBehaviour
     public Animator ThisEnemyAnimator;
     Collider[] ragdollColliders;
     Rigidbody[] limbsRigidBodies;
+    public int timeForDespawn = 7;
     void Start()
     {
         GetRagdollBits();
@@ -23,6 +24,7 @@ public class RagdollManager : MonoBehaviour
     }
     void RagdollModeOn()
     {
+        this.GetComponent<NavMeshAgent>().enabled = false;
         ThisEnemyAnimator.enabled = false;
         foreach (Collider coll in ragdollColliders)
         {
@@ -34,10 +36,12 @@ public class RagdollManager : MonoBehaviour
         }
         mainCollider.enabled = false;
         mainRigidBody.isKinematic = true;
+        WaitAndDestroy();
     }
     void RagdollModeOff()
     {
-        foreach(Collider coll in ragdollColliders)
+        this.GetComponent<NavMeshAgent>().enabled = false;
+        foreach (Collider coll in ragdollColliders)
         {
             coll.enabled = false;
         }
@@ -58,6 +62,11 @@ public class RagdollManager : MonoBehaviour
         {
             RagdollModeOn();
         }
+    }
+
+    void WaitAndDestroy()
+    {
+        Destroy(this.gameObject, 7);
     }
     void GetRagdollBits()
     {
