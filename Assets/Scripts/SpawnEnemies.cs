@@ -9,11 +9,12 @@ public class SpawnEnemies : MonoBehaviour
     private GameObject clone;
     private int xPos;
     private int zPos;
-    private int numberOfEnemies;
-    private int leastNumberOfEnemies = 1;
-    private int MaxNumberOfEnemies = 1;
-    private float timeToNewSpawn = 15f;
-    private int difficultyIncrease = 0;
+    public int numberOfEnemies;
+    private int spawnable;
+    public int leastNumberOfEnemies = 1;
+    public int MaxNumberOfEnemies = 2;
+    private float timeToNewSpawn = 7f;
+    public int difficultyIncrease = 0;
     private int spawnDistance = 1;
     // Start is called before the first frame update
     void Start()
@@ -28,23 +29,33 @@ public class SpawnEnemies : MonoBehaviour
         {
             timeToNewSpawn -= Time.deltaTime;
         }else{
-            xPos = Random.Range(1, 6);
-            zPos = Random.Range(1, 6);
+            xPos = Random.Range(-33, 30);
+            zPos = Random.Range(-20, -21);
+            spawnable = 0;
             numberOfEnemies = Random.Range(leastNumberOfEnemies, MaxNumberOfEnemies + 1);
             StartCoroutine(EnemySpawning());
             timeToNewSpawn = 15f;
             difficultyIncrease += 1;
+            if(difficultyIncrease % 4 == 0)
+            {
+                leastNumberOfEnemies += 1;
+            }
+            if (difficultyIncrease % 2 == 0)
+            {
+                
+                MaxNumberOfEnemies += 1;
+            }
         }
 
-        if(difficultyIncrease % 2 == 0)
-        {
-            leastNumberOfEnemies += 1;
-            MaxNumberOfEnemies += 1;
-        }
+        
     }
     IEnumerator EnemySpawning()
     {
-
+        Vector3[] directions = new Vector3[] { -Vector3.right, Vector3.forward, Vector3.right, -Vector3.forward, -Vector3.right, Vector3.forward, Vector3.right, -Vector3.forward, -Vector3.right, Vector3.forward, Vector3.right, -Vector3.forward };
+        for (int i = 0; i < numberOfEnemies; i++)
+        {
+            clone = Instantiate(walkingEnemies[spawnable], new Vector3(xPos, 4.23f, zPos) + directions[i] * spawnDistance, Quaternion.identity);
+        }
         yield return new WaitForSeconds(timeToNewSpawn);
     }
 }

@@ -411,6 +411,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnZone
       objectReference: {fileID: 0}
+    - target: {fileID: 6287320286032958420, guid: 72bd617e908d6544a88cad3a2b978f28,
+        type: 3}
+      propertyPath: walkingEnemies.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6287320286032958420, guid: 72bd617e908d6544a88cad3a2b978f28,
+        type: 3}
+      propertyPath: walkingEnemies.Array.data[0]
+      value: 
+      objectReference: {fileID: 7146616286965409081, guid: 2f81fe5d2873e9846866b63578c34179,
+        type: 3}
     - target: {fileID: 6287320286032958423, guid: 72bd617e908d6544a88cad3a2b978f28,
         type: 3}
       propertyPath: m_RootOrder

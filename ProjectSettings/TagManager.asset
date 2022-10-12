@@ -9,6 +9,7 @@ TagManager:
   - HomeToProtect
   - RightHand
   - LeftHand
+  - Hitbox
   layers:
   - Default
   - TransparentFX
