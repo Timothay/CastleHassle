@@ -1691,6 +1691,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 5516496439764981218, guid: b0ead2de60c13004dba029c7422fb6c6,
+        type: 3}
+      propertyPath: m_SmoothPosition
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5516496439764981218, guid: b0ead2de60c13004dba029c7422fb6c6,
+        type: 3}
+      propertyPath: m_SmoothRotation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5516496439764981218, guid: b0ead2de60c13004dba029c7422fb6c6,
+        type: 3}
+      propertyPath: m_ThrowVelocityScale
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5516496439764981218, guid: b0ead2de60c13004dba029c7422fb6c6,
+        type: 3}
+      propertyPath: m_ThrowAngularVelocityScale
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5516496439765084529, guid: b0ead2de60c13004dba029c7422fb6c6,
         type: 3}
       propertyPath: m_Name
