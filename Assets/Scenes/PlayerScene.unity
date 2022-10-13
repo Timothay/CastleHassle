@@ -1933,6 +1933,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1385773530}
     m_Modifications:
+    - target: {fileID: 7073990923111724860, guid: 9a87d37ad9f01aa4da1d6cee6cf316f2,
+        type: 3}
+      propertyPath: m_MovementType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7073990923111724861, guid: 9a87d37ad9f01aa4da1d6cee6cf316f2,
         type: 3}
       propertyPath: m_CollisionDetection
