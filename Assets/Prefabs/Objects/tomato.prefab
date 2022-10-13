@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7776332438158453463
+--- !u!1 &229041834443595577
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,26 +8,26 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6962782221710684269}
-  - component: {fileID: 6273265924635590600}
-  - component: {fileID: 8136853711133051650}
-  - component: {fileID: 123675735976773990}
-  - component: {fileID: 123675735976773985}
-  - component: {fileID: 6996245157351593832}
-  m_Layer: 0
+  - component: {fileID: 605286619222017411}
+  - component: {fileID: 4596402172757379622}
+  - component: {fileID: 1742123558883655404}
+  - component: {fileID: 7598081775671573640}
+  - component: {fileID: 7598081775671573647}
+  - component: {fileID: 707358248554193542}
+  m_Layer: 7
   m_Name: tomato
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6962782221710684269
+--- !u!4 &605286619222017411
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7776332438158453463}
+  m_GameObject: {fileID: 229041834443595577}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -0.672, y: 0.9279, z: 0.478}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -36,21 +36,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!33 &6273265924635590600
+--- !u!33 &4596402172757379622
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7776332438158453463}
+  m_GameObject: {fileID: 229041834443595577}
   m_Mesh: {fileID: 5892359386350019813, guid: 5c3ee3f452fe53c4bb6d2cb9c1232583, type: 3}
---- !u!23 &8136853711133051650
+--- !u!23 &1742123558883655404
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7776332438158453463}
+  m_GameObject: {fileID: 229041834443595577}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -87,13 +87,13 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!54 &123675735976773990
+--- !u!54 &7598081775671573640
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7776332438158453463}
+  m_GameObject: {fileID: 229041834443595577}
   serializedVersion: 2
   m_Mass: 0.2
   m_Drag: 0
@@ -102,14 +102,14 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &123675735976773985
+  m_CollisionDetection: 1
+--- !u!114 &7598081775671573647
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7776332438158453463}
+  m_GameObject: {fileID: 229041834443595577}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
@@ -183,7 +183,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_AttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
@@ -223,13 +223,13 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
---- !u!135 &6996245157351593832
+--- !u!135 &707358248554193542
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7776332438158453463}
+  m_GameObject: {fileID: 229041834443595577}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
