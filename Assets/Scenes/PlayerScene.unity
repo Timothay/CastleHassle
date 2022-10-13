@@ -1969,16 +1969,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1385773530}
     m_Modifications:
-    - target: {fileID: 2695869957077664002, guid: 1ef2107b066335c4b8408f796ebfe940,
-        type: 3}
-      propertyPath: leftAttachTransform
-      value: 
-      objectReference: {fileID: 6671222104904841114}
-    - target: {fileID: 2695869957077664002, guid: 1ef2107b066335c4b8408f796ebfe940,
-        type: 3}
-      propertyPath: rightAttachTransform
-      value: 
-      objectReference: {fileID: 6671222104904841113}
     - target: {fileID: 6671222104440625420, guid: 1ef2107b066335c4b8408f796ebfe940,
         type: 3}
       propertyPath: m_Name
@@ -2041,18 +2031,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ef2107b066335c4b8408f796ebfe940, type: 3}
---- !u!4 &6671222104904841113 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1348474699, guid: 1ef2107b066335c4b8408f796ebfe940,
-    type: 3}
-  m_PrefabInstance: {fileID: 6671222104904841112}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &6671222104904841114 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 666113797, guid: 1ef2107b066335c4b8408f796ebfe940,
-    type: 3}
-  m_PrefabInstance: {fileID: 6671222104904841112}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6855535480972239427
 PrefabInstance:
   m_ObjectHideFlags: 0
