@@ -1333,11 +1333,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: potion-globe (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 1754117004464804853, guid: 92e9a22453a156d4ba9d7fb978bebd18,
-        type: 3}
-      propertyPath: m_TagString
-      value: Throwable
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92e9a22453a156d4ba9d7fb978bebd18, type: 3}
 --- !u!1001 &2025542703311671594
@@ -1407,11 +1402,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: broom
       objectReference: {fileID: 0}
-    - target: {fileID: 2024994611116610897, guid: 9a87d37ad9f01aa4da1d6cee6cf316f2,
-        type: 3}
-      propertyPath: m_TagString
-      value: Throwable
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a87d37ad9f01aa4da1d6cee6cf316f2, type: 3}
 --- !u!1001 &2267079986309281478
@@ -1425,11 +1415,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: sword
-      objectReference: {fileID: 0}
-    - target: {fileID: 2266934305489745833, guid: 2c7caf030f992c64ab0204375b03c7aa,
-        type: 3}
-      propertyPath: m_TagString
-      value: Throwable
       objectReference: {fileID: 0}
     - target: {fileID: 2267699582919830457, guid: 2c7caf030f992c64ab0204375b03c7aa,
         type: 3}
@@ -1506,11 +1491,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: pitchfork
       objectReference: {fileID: 0}
-    - target: {fileID: 3098478013458965476, guid: 3df0edff21a5e7d49a2dcc49d2ab2c91,
-        type: 3}
-      propertyPath: m_TagString
-      value: Throwable
-      objectReference: {fileID: 0}
     - target: {fileID: 3105058235219805854, guid: 3df0edff21a5e7d49a2dcc49d2ab2c91,
         type: 3}
       propertyPath: m_RootOrder
@@ -1580,11 +1560,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: gold-brick
       objectReference: {fileID: 0}
-    - target: {fileID: 2123542150131139304, guid: 7dec18d28d21548499e0e183d3c55511,
-        type: 3}
-      propertyPath: m_TagString
-      value: Throwable
-      objectReference: {fileID: 0}
     - target: {fileID: 2123542150131310280, guid: 7dec18d28d21548499e0e183d3c55511,
         type: 3}
       propertyPath: m_RootOrder
@@ -1653,11 +1628,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: chair-wood
-      objectReference: {fileID: 0}
-    - target: {fileID: 4234060933263095471, guid: 196f0a84ac30e7a43bfd949a67f6802f,
-        type: 3}
-      propertyPath: m_TagString
-      value: Throwable
       objectReference: {fileID: 0}
     - target: {fileID: 4238355323709295263, guid: 196f0a84ac30e7a43bfd949a67f6802f,
         type: 3}
@@ -1783,11 +1753,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: pickaxe
       objectReference: {fileID: 0}
-    - target: {fileID: 4649976752928638630, guid: b36e31fb20430ab448161eab40f4d4d0,
-        type: 3}
-      propertyPath: m_TagString
-      value: Throwable
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b36e31fb20430ab448161eab40f4d4d0, type: 3}
 --- !u!1001 &4843425977999136425
@@ -1857,11 +1822,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: potion-globe
       objectReference: {fileID: 0}
-    - target: {fileID: 4841962079909320630, guid: de5d12339394edc4eb6badb56c7e40e0,
-        type: 3}
-      propertyPath: m_TagString
-      value: Throwable
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de5d12339394edc4eb6badb56c7e40e0, type: 3}
 --- !u!1001 &4963244463656066918
@@ -1871,11 +1831,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1385773530}
     m_Modifications:
-    - target: {fileID: 5271674173897260772, guid: 2e5771cfb04b34bcb93b8f6c3043c127,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5271674173897260778, guid: 2e5771cfb04b34bcb93b8f6c3043c127,
         type: 3}
       propertyPath: m_RootOrder
@@ -2019,11 +1974,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: shield
       objectReference: {fileID: 0}
-    - target: {fileID: 6671222104440625420, guid: 1ef2107b066335c4b8408f796ebfe940,
-        type: 3}
-      propertyPath: m_TagString
-      value: Throwable
-      objectReference: {fileID: 0}
     - target: {fileID: 6671222104440625421, guid: 1ef2107b066335c4b8408f796ebfe940,
         type: 3}
       propertyPath: m_RootOrder
@@ -2092,11 +2042,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: potion-globe (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6856332043073726652, guid: f45aed2156db4414b95cfbec0daeb985,
-        type: 3}
-      propertyPath: m_TagString
-      value: Throwable
       objectReference: {fileID: 0}
     - target: {fileID: 6859873456066849058, guid: f45aed2156db4414b95cfbec0daeb985,
         type: 3}
@@ -2542,11 +2487,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tomato
       objectReference: {fileID: 0}
-    - target: {fileID: 229041834443595577, guid: c0a0a17a6b997494fa1d365bb24dd3d9,
-        type: 3}
-      propertyPath: m_TagString
-      value: Throwable
-      objectReference: {fileID: 0}
     - target: {fileID: 605286619222017411, guid: c0a0a17a6b997494fa1d365bb24dd3d9,
         type: 3}
       propertyPath: m_RootOrder
@@ -2671,11 +2611,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: hammer
       objectReference: {fileID: 0}
-    - target: {fileID: 8608141707013145769, guid: 262938ba072f21f498449a374a1c413c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Throwable
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 262938ba072f21f498449a374a1c413c, type: 3}
 --- !u!1001 &8983133185867738063
@@ -2689,11 +2624,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: potion-globe (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8984633503941980979, guid: ed4b50edad1f9b246b1c3e30196c370e,
-        type: 3}
-      propertyPath: m_TagString
-      value: Throwable
       objectReference: {fileID: 0}
     - target: {fileID: 8987614389343335085, guid: ed4b50edad1f9b246b1c3e30196c370e,
         type: 3}
@@ -2818,11 +2748,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: cannonball
-      objectReference: {fileID: 0}
-    - target: {fileID: 9163715921031969195, guid: adfb92d02ffc3f8469ca2d39d34cc816,
-        type: 3}
-      propertyPath: m_TagString
-      value: Throwable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: adfb92d02ffc3f8469ca2d39d34cc816, type: 3}
