@@ -5,28 +5,14 @@ using UnityEngine;
 public class ObjectSpawn : MonoBehaviour
 {
     public GameObject[] throwables;
-    private float xPos;
-    private float zPos;
     public int collisionCount;
     private int spawnable;
     private float timeToNewSpawn = 3f;
+
     private void Start()
     {
-
-        xPos = Random.Range(-1f, -2.2f);
-        zPos = Random.Range(17f, 19f);
-        spawnable = Random.Range(1, 12);
-        Instantiate(throwables[spawnable], new Vector3(xPos, 12.5f, zPos), Quaternion.identity);
-
-        xPos = Random.Range(-1f, -2.2f);
-        zPos = Random.Range(17f, 19f);
-        spawnable = Random.Range(1, 12);
-        Instantiate(throwables[spawnable], new Vector3(xPos, 12.5f, zPos), Quaternion.identity);
-
-        xPos = Random.Range(-1f, -2.2f);
-        zPos = Random.Range(17f, 19f);
-        spawnable = Random.Range(1, 12);
-        Instantiate(throwables[spawnable], new Vector3(xPos, 12.5f, zPos), Quaternion.identity);
+        spawnable = Random.Range(0, 12);
+        Instantiate(throwables[spawnable], this.transform.position, Quaternion.identity);
     }
     // Update is called once per frame
     void Update()
@@ -36,9 +22,7 @@ public class ObjectSpawn : MonoBehaviour
             timeToNewSpawn -= Time.deltaTime;
         }else 
         {
-            if (collisionCount < 3) { 
-                xPos = Random.Range(-1f, -2.2f);
-                zPos = Random.Range(17f, 19f);
+            if (collisionCount == 0) { 
                 spawnable = Random.Range(1, 12);
                 StartCoroutine(SpawnObject());
                 timeToNewSpawn = 3f;
@@ -62,7 +46,7 @@ public class ObjectSpawn : MonoBehaviour
     }
     IEnumerator SpawnObject()
     {
-        Instantiate(throwables[spawnable], new Vector3(xPos, 12.5f, zPos), Quaternion.identity);
+        Instantiate(throwables[spawnable], this.transform.position, Quaternion.identity);
         yield return new WaitForSeconds(3);
     }
 }
