@@ -2412,6 +2412,7 @@ MonoBehaviour:
   mainRigidBody: {fileID: 4499581519783335727}
   ThisEnemy: {fileID: 7146616286965409081}
   ThisEnemyAnimator: {fileID: 7146616286956050097}
+  timeForDespawn: 0
 --- !u!195 &-3318959293514387311
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2422,8 +2423,8 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.36
-  m_Speed: 3.5
-  m_Acceleration: 8
+  m_Speed: 1.75
+  m_Acceleration: 4
   avoidancePriority: 50
   m_AngularSpeed: 120
   m_StoppingDistance: 0
