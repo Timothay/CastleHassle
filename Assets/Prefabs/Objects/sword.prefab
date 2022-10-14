@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2274989935357505871}
   - component: {fileID: 2267079985720818915}
   - component: {fileID: 2267079986309281481}
+  - component: {fileID: 5341089126519925411}
   m_Layer: 7
   m_Name: sword
   m_TagString: Throwable
@@ -240,6 +241,18 @@ MonoBehaviour:
   m_AttachPointCompatibilityMode: 0
   leftAttachTransform: {fileID: 9164873002082664843}
   rightAttachTransform: {fileID: 9164873002082664843}
+--- !u!114 &5341089126519925411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2266934305489745833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b944cfc62419b424fb41627a72764be6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4982433175168236448
 GameObject:
   m_ObjectHideFlags: 0

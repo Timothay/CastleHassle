@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4642437486165683124}
   - component: {fileID: 4650956972426596294}
   - component: {fileID: 2587773997632953417}
+  - component: {fileID: -7440747837878143993}
   m_Layer: 7
   m_Name: pickaxe
   m_TagString: Throwable
@@ -240,6 +241,18 @@ MonoBehaviour:
   m_AttachPointCompatibilityMode: 0
   leftAttachTransform: {fileID: 1292927122388169103}
   rightAttachTransform: {fileID: 1292927122388169103}
+--- !u!114 &-7440747837878143993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4649976752928638630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b944cfc62419b424fb41627a72764be6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8509397065472595206
 GameObject:
   m_ObjectHideFlags: 0

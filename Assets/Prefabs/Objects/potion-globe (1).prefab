@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 6901573573060489490}
   - component: {fileID: 6855535481650845016}
   - component: {fileID: 7205578714228338538}
+  - component: {fileID: -2150997123693055655}
   m_Layer: 7
   m_Name: potion-globe (1)
   m_TagString: Throwable
@@ -272,3 +273,15 @@ MonoBehaviour:
   m_AttachPointCompatibilityMode: 0
   leftAttachTransform: {fileID: 1368241935221777146}
   rightAttachTransform: {fileID: 1368241935221777146}
+--- !u!114 &-2150997123693055655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6856332043073726652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b944cfc62419b424fb41627a72764be6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

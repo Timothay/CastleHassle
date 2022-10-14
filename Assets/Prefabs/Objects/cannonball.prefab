@@ -76,6 +76,7 @@ GameObject:
   - component: {fileID: 9146845333966378657}
   - component: {fileID: 9164687344685964839}
   - component: {fileID: 272926638116922106}
+  - component: {fileID: 5000049852222181870}
   m_Layer: 7
   m_Name: cannonball
   m_TagString: Throwable
@@ -301,3 +302,15 @@ MonoBehaviour:
   m_AttachPointCompatibilityMode: 0
   leftAttachTransform: {fileID: 4907625730752842553}
   rightAttachTransform: {fileID: 254784960214775975}
+--- !u!114 &5000049852222181870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9163715921031969195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b944cfc62419b424fb41627a72764be6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
