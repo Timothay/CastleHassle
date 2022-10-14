@@ -374,9 +374,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7146616286965905715}
+  - component: {fileID: 3554655809265880581}
   m_Layer: 0
   m_Name: PT_Medieval_Male_RightHand
-  m_TagString: Untagged
+  m_TagString: Throwable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -402,6 +403,19 @@ Transform:
   m_Father: {fileID: 7146616286965905713}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &3554655809265880581
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7146616286965408979}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.15, y: 0.28, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7146616286965408981
 GameObject:
   m_ObjectHideFlags: 0
@@ -2317,10 +2331,10 @@ GameObject:
   - component: {fileID: 7146616286965905689}
   - component: {fileID: 7146616286956050097}
   - component: {fileID: 776096403909841248}
-  - component: {fileID: 4499581519783335727}
   - component: {fileID: -4815627752394474339}
   - component: {fileID: -3318959293514387311}
   - component: {fileID: 8963339150722607421}
+  - component: {fileID: 6907219939841815460}
   m_Layer: 0
   m_Name: Enemy1
   m_TagString: Enemy
@@ -2380,22 +2394,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5422214, y: 1.8239379, z: 0.46607304}
   m_Center: {x: 0.018979356, y: 0.9016707, z: 0.019225359}
---- !u!54 &4499581519783335727
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7146616286965409081}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &-4815627752394474339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2409,7 +2407,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainCollider: {fileID: 776096403909841248}
-  mainRigidBody: {fileID: 4499581519783335727}
+  mainRigidBody: {fileID: 6907219939841815460}
   ThisEnemy: {fileID: 7146616286965409081}
   ThisEnemyAnimator: {fileID: 7146616286956050097}
   timeForDespawn: 0
@@ -2449,6 +2447,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitbox: {fileID: 5113762025239289587, guid: cb89e082777bf2840947314c0d709c31, type: 3}
   agent: {fileID: -3318959293514387311}
+  anim: {fileID: 0}
+  rb: {fileID: 6907219939841815460}
+--- !u!54 &6907219939841815460
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7146616286965409081}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &7146616286965409083
 GameObject:
   m_ObjectHideFlags: 0
