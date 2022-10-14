@@ -10,6 +10,8 @@ TagManager:
   - RightHand
   - LeftHand
   - Hitbox
+  - SpawnTable
+  - Default
   layers:
   - Default
   - TransparentFX
