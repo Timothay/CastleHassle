@@ -10,6 +10,24 @@ public class ObjectSpawn : MonoBehaviour
     public int collisionCount;
     private int spawnable;
     private float timeToNewSpawn = 3f;
+    private void Start()
+    {
+
+        xPos = Random.Range(-1f, -2.2f);
+        zPos = Random.Range(17f, 19f);
+        spawnable = Random.Range(1, 12);
+        Instantiate(throwables[spawnable], new Vector3(xPos, 12.5f, zPos), Quaternion.identity);
+
+        xPos = Random.Range(-1f, -2.2f);
+        zPos = Random.Range(17f, 19f);
+        spawnable = Random.Range(1, 12);
+        Instantiate(throwables[spawnable], new Vector3(xPos, 12.5f, zPos), Quaternion.identity);
+
+        xPos = Random.Range(-1f, -2.2f);
+        zPos = Random.Range(17f, 19f);
+        spawnable = Random.Range(1, 12);
+        Instantiate(throwables[spawnable], new Vector3(xPos, 12.5f, zPos), Quaternion.identity);
+    }
     // Update is called once per frame
     void Update()
     {
