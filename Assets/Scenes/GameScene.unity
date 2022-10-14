@@ -845,6 +845,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Map
       objectReference: {fileID: 0}
+    - target: {fileID: 970374953500583880, guid: 11db7ec2761c68444b95f5c7f171a783,
+        type: 3}
+      propertyPath: m_TagString
+      value: SpawnTable
+      objectReference: {fileID: 0}
+    - target: {fileID: 970374955004245582, guid: 11db7ec2761c68444b95f5c7f171a783,
+        type: 3}
+      propertyPath: m_TagString
+      value: SpawnTable
+      objectReference: {fileID: 0}
     - target: {fileID: 1382609653069803364, guid: 11db7ec2761c68444b95f5c7f171a783,
         type: 3}
       propertyPath: m_NavMeshLayer
@@ -858,7 +868,7 @@ PrefabInstance:
     - target: {fileID: 1506656214388900743, guid: 11db7ec2761c68444b95f5c7f171a783,
         type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: SpawnTable
       objectReference: {fileID: 0}
     - target: {fileID: 1585684494647716508, guid: 11db7ec2761c68444b95f5c7f171a783,
         type: 3}
@@ -894,6 +904,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: -2.292
+      objectReference: {fileID: 0}
+    - target: {fileID: 1629394929622743453, guid: 11db7ec2761c68444b95f5c7f171a783,
+        type: 3}
+      propertyPath: m_TagString
+      value: SpawnTable
       objectReference: {fileID: 0}
     - target: {fileID: 1934399594542967299, guid: 11db7ec2761c68444b95f5c7f171a783,
         type: 3}
@@ -1114,6 +1129,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572064617834218795, guid: 11db7ec2761c68444b95f5c7f171a783,
+        type: 3}
+      propertyPath: m_TagString
+      value: SpawnTable
       objectReference: {fileID: 0}
     - target: {fileID: 4583582086315218310, guid: 11db7ec2761c68444b95f5c7f171a783,
         type: 3}
@@ -2175,6 +2195,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7291421882262836876, guid: 11db7ec2761c68444b95f5c7f171a783,
+        type: 3}
+      propertyPath: m_TagString
+      value: SpawnTable
+      objectReference: {fileID: 0}
     - target: {fileID: 7565945355481440969, guid: 11db7ec2761c68444b95f5c7f171a783,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2438,6 +2463,7 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 5917462384812925285, guid: 11db7ec2761c68444b95f5c7f171a783, type: 3}
     - {fileID: 5917462384812925284, guid: 11db7ec2761c68444b95f5c7f171a783, type: 3}
+    - {fileID: 4033515478978604960, guid: 11db7ec2761c68444b95f5c7f171a783, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 11db7ec2761c68444b95f5c7f171a783, type: 3}
 --- !u!1001 &7239494345233174379
 PrefabInstance:
