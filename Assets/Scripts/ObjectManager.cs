@@ -6,7 +6,7 @@ public class ObjectManager : MonoBehaviour
 {
   private void OnCollisionEnter(Collision collision)
   {
-    if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Default")
+    if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Default" || collision.gameObject.tag == "Untagged")
     {
       Invoke("ChangeTag", 1f);
       Invoke("DestroyObject", 10f);
