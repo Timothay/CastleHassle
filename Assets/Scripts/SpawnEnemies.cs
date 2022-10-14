@@ -16,12 +16,6 @@ public class SpawnEnemies : MonoBehaviour
     private float timeToNewSpawn = 7f;
     public int difficultyIncrease = 0;
     private int spawnDistance = 1;
-    // Start is called before the first frame update
-    void Start()
-    {
-    
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -36,11 +30,11 @@ public class SpawnEnemies : MonoBehaviour
             StartCoroutine(EnemySpawning());
             timeToNewSpawn = 15f;
             difficultyIncrease += 1;
-            if(difficultyIncrease % 4 == 0)
+            if(difficultyIncrease % 8 == 0)
             {
                 leastNumberOfEnemies += 1;
             }
-            if (difficultyIncrease % 2 == 0)
+            if (difficultyIncrease % 4 == 0)
             {
                 
                 MaxNumberOfEnemies += 1;
