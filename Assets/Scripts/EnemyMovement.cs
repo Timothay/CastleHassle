@@ -5,14 +5,19 @@ using UnityEngine.AI;
 
 public class EnemyMovement : MonoBehaviour
 {
-    public GameObject hitbox;
+    public GameObject path;
     public NavMeshAgent agent;
     public Animation anim;
     public Rigidbody rb;
+    private int pathChosen;
     // Start is called before the first frame update
     void Start()
     {
-        hitbox = GameObject.FindGameObjectWithTag("Hitbox");
+        string[] paths = { "EnemyPath1", "EnemyPath2", "EnemyPath3", "EnemyPath4", "EnemyPath5", "EnemyPath6" };
+        pathChosen = Random.Range(0, 6);
+        Debug.Log(pathChosen);
+        Debug.Log(paths[pathChosen]);
+        path = GameObject.FindGameObjectWithTag(paths[pathChosen]);
         agent = this.GetComponent<NavMeshAgent>();
     }
     private void OnTriggerEnter(Collider other)
@@ -29,6 +34,6 @@ public class EnemyMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        agent.SetDestination(hitbox.transform.position);
+        agent.SetDestination(path.transform.position);
     }
 }
