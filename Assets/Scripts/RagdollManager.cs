@@ -61,6 +61,7 @@ public class RagdollManager : MonoBehaviour
         if (collision.gameObject.tag == "Throwable")
         {
             RagdollModeOn();
+            SoundManager.soundManager.PlayHurtSound();
         }
     }
 
