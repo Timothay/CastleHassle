@@ -13,8 +13,8 @@ public class EnemyMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        string[] paths = { "EnemyPath1", "EnemyPath2", "EnemyPath3", "EnemyPath4", "EnemyPath5", "EnemyPath6" };
-        pathChosen = Random.Range(0, 6);
+        string[] paths = { "EnemyPath1", "EnemyPath2", "EnemyPath3", "EnemyPath4", "EnemyPath5", "EnemyPath6", "EnemyPath7", "EnemyPath8" };
+        pathChosen = Random.Range(0, 8);
         Debug.Log(pathChosen);
         Debug.Log(paths[pathChosen]);
         path = GameObject.FindGameObjectWithTag(paths[pathChosen]);
