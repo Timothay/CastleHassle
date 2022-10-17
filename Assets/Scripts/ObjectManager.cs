@@ -12,9 +12,9 @@ public class ObjectManager : MonoBehaviour
       Invoke("ChangeTag", 1f);
       Invoke("DestroyObject", 10f);
     }
-    if(collision.gameObject.tag == "leftHand" || collision.gameObject.tag == "rightHand")
+    if(collision.gameObject.tag == "LeftHand" || collision.gameObject.tag == "RightHand")
         {
-            rb.constraints &= ~RigidbodyConstraints.FreezePositionY;
+            this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
         }
   }
 
