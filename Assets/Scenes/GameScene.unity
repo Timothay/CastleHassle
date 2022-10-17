@@ -2145,6 +2145,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a687b395b5fe1e94f8c555639609eeb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hurtSounds:
+  - {fileID: 8300000, guid: 6017a978f3b7cda4586b904dda585438, type: 3}
+  - {fileID: 8300000, guid: ff2c868236443084f9b13c6a05c4cc1e, type: 3}
 --- !u!4 &542385441
 Transform:
   m_ObjectHideFlags: 0

@@ -7,7 +7,7 @@ public class SoundManager : MonoBehaviour
     public static SoundManager soundManager;
 
     AudioSource audioSource;
-    AudioClip[] hurtSounds;
+    [SerializeField] AudioClip[] hurtSounds;
 
     int randomHurtSounds;
 
@@ -15,7 +15,7 @@ public class SoundManager : MonoBehaviour
     {
         soundManager = this;
         audioSource = GetComponent<AudioSource>();
-        hurtSounds = Resources.LoadAll<AudioClip>("HurtSounds");
+        //hurtSounds = Resources.LoadAll<AudioClip>("HurtSounds");
     }
 
     public void PlayHurtSound()
