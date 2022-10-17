@@ -23,8 +23,8 @@ public class SpawnEnemies : MonoBehaviour
         {
             timeToNewSpawn -= Time.deltaTime;
         }else{
-            xPos = Random.Range(-33, 30);
-            zPos = Random.Range(-20, -21);
+            xPos = Random.Range(-26, 30);
+            zPos = Random.Range(-24, -25);
             spawnable = 0;
             numberOfEnemies = Random.Range(leastNumberOfEnemies, MaxNumberOfEnemies + 1);
             StartCoroutine(EnemySpawning());

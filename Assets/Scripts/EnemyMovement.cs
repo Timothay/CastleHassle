@@ -19,6 +19,7 @@ public class EnemyMovement : MonoBehaviour
         Debug.Log(paths[pathChosen]);
         path = GameObject.FindGameObjectWithTag(paths[pathChosen]);
         agent = this.GetComponent<NavMeshAgent>();
+        agent.SetDestination(path.transform.position);
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -29,11 +30,25 @@ public class EnemyMovement : MonoBehaviour
             this.GetComponent<NavMeshAgent>().enabled = false;
             this.GetComponent<Animator>().SetBool("isWalking", false);
             this.GetComponent<Animator>().SetBool("isAttacking", true);
+            StartCoroutine(EnemyDamaging());
+
         }
+    }
+    private void OnTriggerStay(Collider collision)
+    {
+        if(collision.gameObject.tag == "Hitbox")
+        {
+            
+        }
+    }
+    IEnumerator EnemyDamaging()
+    {
+        GameObject.Find("Health").GetComponent<HealthManager>().health -= 5;
+        yield return new WaitForSeconds(2);
     }
     // Update is called once per frame
     void Update()
     {
-        agent.SetDestination(path.transform.position);
+        
     }
 }

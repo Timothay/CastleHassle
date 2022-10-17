@@ -12,6 +12,14 @@ TagManager:
   - Hitbox
   - SpawnTable
   - Default
+  - EnemyPath1
+  - EnemyPath2
+  - EnemyPath3
+  - EnemyPath4
+  - EnemyPath5
+  - EnemyPath6
+  - EnemyPath7
+  - EnemyPath8
   layers:
   - Default
   - TransparentFX
