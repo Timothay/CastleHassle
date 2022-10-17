@@ -42,10 +42,10 @@ GameObject:
   - component: {fileID: 2021263116428831537}
   - component: {fileID: 2047815820479443933}
   - component: {fileID: 2039888533964910385}
-  - component: {fileID: 2088032362660074059}
   - component: {fileID: 2025542702348816511}
   - component: {fileID: 1940198320475062817}
   - component: {fileID: 3769968084619488699}
+  - component: {fileID: 2854486975524568813}
   m_Layer: 7
   m_Name: broom
   m_TagString: Throwable
@@ -121,20 +121,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2088032362660074059
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2024994611116610897}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 7b62a6d37dc3c4675ae0272beeb3f9d9, type: 3}
 --- !u!54 &2025542702348816511
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -286,6 +272,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 2025542702348816511}
+--- !u!65 &2854486975524568813
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024994611116610897}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.40687358, y: 1.6315782, z: 0.3045447}
+  m_Center: {x: 0.0118057355, y: 0.8188046, z: 0.000000074505806}
 --- !u!1 &3782500826841690268
 GameObject:
   m_ObjectHideFlags: 0
