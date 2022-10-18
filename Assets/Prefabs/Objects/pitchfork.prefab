@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1465558283449658534}
   - component: {fileID: 7780864528303813789}
   - component: {fileID: 3656665617399436087}
+  - component: {fileID: 6416886716491303490}
   m_Layer: 7
   m_Name: pitchfork
   m_TagString: Throwable
@@ -36,6 +37,7 @@ Transform:
   m_Children:
   - {fileID: 2250122181405365813}
   - {fileID: 5373911939137531770}
+  - {fileID: 2843138102284070361}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -254,6 +256,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1465558283449658534}
+--- !u!114 &6416886716491303490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1463870895827934188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ee75dba26399430487cb203dafd2ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particles: {fileID: 2843138102303482273}
 --- !u!1 &7213179123294733531
 GameObject:
   m_ObjectHideFlags: 0
@@ -316,3 +331,72 @@ Transform:
   m_Father: {fileID: 1461371382643474070}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2843138102283966321
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1461371382643474070}
+    m_Modifications:
+    - target: {fileID: 173668, guid: a38715e0604b54fbc87b2b5a073e5842, type: 3}
+      propertyPath: m_Name
+      value: SwordHitYellow
+      objectReference: {fileID: 0}
+    - target: {fileID: 441000, guid: a38715e0604b54fbc87b2b5a073e5842, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 441000, guid: a38715e0604b54fbc87b2b5a073e5842, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441000, guid: a38715e0604b54fbc87b2b5a073e5842, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 441000, guid: a38715e0604b54fbc87b2b5a073e5842, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441000, guid: a38715e0604b54fbc87b2b5a073e5842, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 441000, guid: a38715e0604b54fbc87b2b5a073e5842, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 441000, guid: a38715e0604b54fbc87b2b5a073e5842, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441000, guid: a38715e0604b54fbc87b2b5a073e5842, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441000, guid: a38715e0604b54fbc87b2b5a073e5842, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 441000, guid: a38715e0604b54fbc87b2b5a073e5842, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441000, guid: a38715e0604b54fbc87b2b5a073e5842, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a38715e0604b54fbc87b2b5a073e5842, type: 3}
+--- !u!4 &2843138102284070361 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 441000, guid: a38715e0604b54fbc87b2b5a073e5842,
+    type: 3}
+  m_PrefabInstance: {fileID: 2843138102283966321}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &2843138102303482273 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 19855056, guid: a38715e0604b54fbc87b2b5a073e5842,
+    type: 3}
+  m_PrefabInstance: {fileID: 2843138102283966321}
+  m_PrefabAsset: {fileID: 0}
