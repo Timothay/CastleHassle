@@ -134,7 +134,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6455829543442090869}
   - component: {fileID: 5136738467927206829}
-  - component: {fileID: 7846176942730334846}
   m_Layer: 0
   m_Name: Barricade
   m_TagString: Hitbox
@@ -205,18 +204,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 7.8763156, y: 2.616747, z: 3.6917925}
   m_Center: {x: -0.20941281, y: 1.3176723, z: 1.4292369}
---- !u!114 &7846176942730334846
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6975842708174529470}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7092458dfa8dde45a6ca4ade002135a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &7512784644383098486
 GameObject:
   m_ObjectHideFlags: 0
