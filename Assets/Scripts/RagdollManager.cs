@@ -17,11 +17,6 @@ public class RagdollManager : MonoBehaviour
         RagdollModeOff();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     void RagdollModeOn()
     {
         this.GetComponent<NavMeshAgent>().enabled = false;
@@ -52,14 +47,12 @@ public class RagdollManager : MonoBehaviour
         ThisEnemyAnimator.enabled = true;
         mainCollider.enabled = true;
         mainRigidBody.isKinematic = false;
-
-        
-
     }
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Throwable")
         {
+            GameObject.Find("KillCount").GetComponent<KillCountManager>().killCount += 1;
             RagdollModeOn();
             SoundManager.soundManager.PlayHurtSound();
         }
