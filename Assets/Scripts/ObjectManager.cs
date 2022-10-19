@@ -11,11 +11,12 @@ public class ObjectManager : MonoBehaviour
     {
       Invoke("ChangeTag", 1f);
       Invoke("DestroyObject", 10f);
+      SoundManager.soundManager.PlayHurtSound();
     }
     if(collision.gameObject.tag == "LeftHand" || collision.gameObject.tag == "RightHand")
-        {
-            this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
-        }
+    {
+        this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
+    }
   }
 
   private void ChangeTag()

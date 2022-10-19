@@ -15,7 +15,6 @@ public class SoundManager : MonoBehaviour
     {
         soundManager = this;
         audioSource = GetComponent<AudioSource>();
-        //hurtSounds = Resources.LoadAll<AudioClip>("HurtSounds");
     }
 
     public void PlayHurtSound()

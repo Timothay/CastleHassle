@@ -2484,6 +2484,9 @@ MonoBehaviour:
   hurtSounds:
   - {fileID: 8300000, guid: 6017a978f3b7cda4586b904dda585438, type: 3}
   - {fileID: 8300000, guid: ff2c868236443084f9b13c6a05c4cc1e, type: 3}
+  - {fileID: 8300000, guid: 2a50f0df2bb6e7e408779a4341a7560d, type: 3}
+  - {fileID: 8300000, guid: b43d15c5050427649923a3cbeaede282, type: 3}
+  - {fileID: 8300000, guid: 971bcb2364224a1438e3e26e665bb82e, type: 3}
 --- !u!82 &5268196481428619888
 AudioSource:
   m_ObjectHideFlags: 0
