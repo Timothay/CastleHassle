@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObjectSpawn : MonoBehaviour
+public class ObjectSpawnRight : MonoBehaviour
 {
     public GameObject[] throwables;
     public int collisionCount;
@@ -11,7 +11,7 @@ public class ObjectSpawn : MonoBehaviour
 
     private void Start()
     {
-        spawnable = Random.Range(0, 12);
+        spawnable = Random.Range(0, 14);
         Instantiate(throwables[spawnable], this.transform.position, Quaternion.identity);
     }
     // Update is called once per frame
