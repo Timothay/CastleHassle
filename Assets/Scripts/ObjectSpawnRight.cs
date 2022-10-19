@@ -23,7 +23,7 @@ public class ObjectSpawnRight : MonoBehaviour
         }else 
         {
             if (collisionCount == 0) { 
-                spawnable = Random.Range(1, 12);
+                spawnable = Random.Range(0,14);
                 StartCoroutine(SpawnObject());
                 timeToNewSpawn = 3f;
             }
