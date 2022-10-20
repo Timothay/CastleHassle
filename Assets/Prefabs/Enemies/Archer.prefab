@@ -326,7 +326,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToShoot: 5
-  arrow: {fileID: 0}
+  arrow: {fileID: 7796180250326921745, guid: 3e89f52b68d2b824c933a0b22b5cfecc, type: 3}
 --- !u!1 &1868862259872523356
 GameObject:
   m_ObjectHideFlags: 0

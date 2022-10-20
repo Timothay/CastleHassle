@@ -16,7 +16,6 @@ public class ArcherShoot : MonoBehaviour
     void Update()
     {
         var step = speed * Time.deltaTime;
-        Vector3 newDirection = Vector3.RotateTowards(transform.forward, player.transform.position, step, 0.0f);
         transform.position = Vector3.MoveTowards(this.transform.position, player.transform.position, step);
     }
 }
