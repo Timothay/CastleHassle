@@ -5,11 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class QuitButton : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.tag == "Throwable")
+        if (other.tag == "Throwable")
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            Application.Quit();
+            
         }
+        Debug.Log("Quit");
     }
 }

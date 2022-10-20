@@ -5,11 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class RestartButton : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.tag == "Throwable")
+        if (other.tag == "Throwable")
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            Debug.Log("Restart : " + SceneManager.GetActiveScene().name);
         }
     }
 }
