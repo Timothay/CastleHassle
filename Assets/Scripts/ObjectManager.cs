@@ -12,7 +12,7 @@ public class ObjectManager : MonoBehaviour
     {
       Invoke("ChangeTag", 1f);
       Invoke("DestroyObject", 10f);
-      SoundManager.soundManager.PlayHurtSound();
+      // SoundManager.soundManager.PlayHurtSound();
     }
     if(collision.gameObject.tag == "LeftHand" || collision.gameObject.tag == "RightHand")
     {
