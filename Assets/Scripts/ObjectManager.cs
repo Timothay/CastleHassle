@@ -7,11 +7,7 @@ public class ObjectManager : MonoBehaviour
     public Rigidbody rb;
   private void OnCollisionEnter(Collision collision)
   {
-    if (collision.gameObject.tag  == "Arrow")
-        {
-            collision.gameObject.tag = "Throwable";
-            collision.gameObject.transform.SetParent(this.transform);
-        }
+    
     if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Default" || collision.gameObject.tag == "Untagged")
     {
       Invoke("ChangeTag", 1f);
@@ -24,7 +20,7 @@ public class ObjectManager : MonoBehaviour
     }
   }
 
-  private void ChangeTag()
+    private void ChangeTag()
   {
     gameObject.tag = "Default";
   }

@@ -16,6 +16,7 @@ public class ArcherManager : MonoBehaviour
 
     IEnumerator ArcherShoot()
     {
+        this.GetComponent<Animator>().enabled = true;
         new WaitForSeconds(2.167f);
         Instantiate(arrow, new Vector3(-17.157f, 13.83f, -34.375f), Quaternion.Euler(0,19,0));
         yield return new WaitForSeconds(timeToShoot);
