@@ -7,7 +7,7 @@ public class HealthManager : MonoBehaviour
 {
     public GameObject gameOverMenu;
     public bool isGameOver;
-    private const float MAX_HEALTH = 1000f;
+    private const float MAX_HEALTH = 5000f;
     public float health = MAX_HEALTH;
     private Image healthBar;
     // Start is called before the first frame update

@@ -2318,6 +2318,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7011839967095492713, guid: 43ada67f5e36b47f0993bce2c4cd1f1f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 7011839967248682192, guid: 43ada67f5e36b47f0993bce2c4cd1f1f,
         type: 3}
       propertyPath: m_RootOrder
@@ -2377,6 +2382,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: XR Origin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7011839967248682194, guid: 43ada67f5e36b47f0993bce2c4cd1f1f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7011839967951556894, guid: 43ada67f5e36b47f0993bce2c4cd1f1f,
         type: 3}
@@ -2671,7 +2681,7 @@ PrefabInstance:
     - target: {fileID: 6529535867492659282, guid: 7853223f65d122b4f8f4702cd1cb59eb,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6963548001859799543, guid: 7853223f65d122b4f8f4702cd1cb59eb,
         type: 3}

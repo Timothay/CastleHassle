@@ -10,7 +10,8 @@ public class ArcherShoot : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player"); 
+        player = GameObject.FindGameObjectWithTag("Player");
+        this.transform.LookAt(player.transform.position);
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -32,7 +33,7 @@ public class ArcherShoot : MonoBehaviour
         if (!isStopped)
         {
             var step = speed * Time.deltaTime;
-            transform.position = Vector3.MoveTowards(this.transform.position,new Vector3(player.transform.position.x, player.transform.position.y + 0.5f, player.transform.position.z), step);
+            transform.position += transform.forward * step;
         }
        
     }
