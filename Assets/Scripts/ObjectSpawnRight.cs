@@ -11,7 +11,7 @@ public class ObjectSpawnRight : MonoBehaviour
 
     private void Start()
     {
-        spawnable = Random.Range(0, 14);
+        spawnable = Random.Range(0, 11);
         Instantiate(throwables[spawnable], this.transform.position, Quaternion.identity);
     }
     // Update is called once per frame
@@ -23,7 +23,7 @@ public class ObjectSpawnRight : MonoBehaviour
         }else 
         {
             if (collisionCount == 0) { 
-                spawnable = Random.Range(0,14);
+                spawnable = Random.Range(0,11);
                 StartCoroutine(SpawnObject());
                 timeToNewSpawn = 3f;
             }

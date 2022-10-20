@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class ArcherShoot : MonoBehaviour
 {
-    public float speed = 4f;
+    public float speed = 10f;
     private GameObject player;
+    private bool isStopped = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,8 +16,9 @@ public class ArcherShoot : MonoBehaviour
     {
         if (other.gameObject.tag == "Throwable")
         {
+            isStopped = true;
             other.gameObject.tag = "Throwable";
-            other.gameObject.transform.SetParent(this.transform);
+            this.gameObject.transform.SetParent(other.gameObject.transform);
         }
         if(other.gameObject.tag == "Player")
         {
@@ -27,7 +29,11 @@ public class ArcherShoot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        var step = speed * Time.deltaTime;
-        transform.position = Vector3.MoveTowards(this.transform.position, player.transform.position, step);
+        if (!isStopped)
+        {
+            var step = speed * Time.deltaTime;
+            transform.position = Vector3.MoveTowards(this.transform.position,new Vector3(player.transform.position.x, player.transform.position.x + 0.5f, player.transform.position.z), step);
+        }
+       
     }
 }

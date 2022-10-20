@@ -19,7 +19,10 @@ public class SoundManager : MonoBehaviour
 
     public void PlayHurtSound()
     {
-        randomHurtSounds = Random.Range(0, hurtSounds.Length);
-        audioSource.PlayOneShot(hurtSounds[randomHurtSounds]);
+        if (!audioSource.isPlaying)
+        {
+            randomHurtSounds = Random.Range(0, hurtSounds.Length);
+            audioSource.PlayOneShot(hurtSounds[randomHurtSounds]);
+        }
     }
 }

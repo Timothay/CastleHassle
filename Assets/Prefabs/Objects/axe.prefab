@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 216390330178637110}
   - component: {fileID: 1127240643650487525}
   - component: {fileID: 1756713014986542740}
-  - component: {fileID: 2845690635167851028}
   - component: {fileID: -8266890908214095295}
   - component: {fileID: 1001054461786637421}
   - component: {fileID: 2409769325114222443}
@@ -274,20 +273,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particles: {fileID: 4432954549341823723}
---- !u!114 &2845690635167851028
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2666088198244894000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a687b395b5fe1e94f8c555639609eeb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hurtSounds:
-  - {fileID: 8300000, guid: 26a0d500de393474ab34a12321cc975f, type: 3}
 --- !u!82 &-8266890908214095295
 AudioSource:
   m_ObjectHideFlags: 0

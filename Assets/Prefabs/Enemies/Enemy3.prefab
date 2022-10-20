@@ -2335,8 +2335,8 @@ GameObject:
   - component: {fileID: -3318959293514387311}
   - component: {fileID: 8963339150722607421}
   - component: {fileID: 6907219939841815460}
-  - component: {fileID: 175082524354530594}
   - component: {fileID: 5268196481428619888}
+  - component: {fileID: 5119904435126622541}
   m_Layer: 0
   m_Name: Enemy3
   m_TagString: Enemy
@@ -2469,24 +2469,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &175082524354530594
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7146616286965409081}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a687b395b5fe1e94f8c555639609eeb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hurtSounds:
-  - {fileID: 8300000, guid: 6017a978f3b7cda4586b904dda585438, type: 3}
-  - {fileID: 8300000, guid: ff2c868236443084f9b13c6a05c4cc1e, type: 3}
-  - {fileID: 8300000, guid: 2a50f0df2bb6e7e408779a4341a7560d, type: 3}
-  - {fileID: 8300000, guid: b43d15c5050427649923a3cbeaede282, type: 3}
-  - {fileID: 8300000, guid: 971bcb2364224a1438e3e26e665bb82e, type: 3}
 --- !u!82 &5268196481428619888
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2498,7 +2480,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -2583,6 +2565,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &5119904435126622541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7146616286965409081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a687b395b5fe1e94f8c555639609eeb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hurtSounds:
+  - {fileID: 8300000, guid: 26a0d500de393474ab34a12321cc975f, type: 3}
 --- !u!1 &7146616286965409083
 GameObject:
   m_ObjectHideFlags: 0

@@ -78,7 +78,6 @@ GameObject:
   - component: {fileID: 8163239800237966766}
   - component: {fileID: 2603276468200184260}
   - component: {fileID: 6494077430852293172}
-  - component: {fileID: 8564034871640188388}
   - component: {fileID: 7828484265476608627}
   - component: {fileID: 7336166306508696161}
   - component: {fileID: 1138795511045169130}
@@ -336,20 +335,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particles: {fileID: 3432807487779204724}
---- !u!114 &8564034871640188388
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8163384389934482638}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a687b395b5fe1e94f8c555639609eeb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hurtSounds:
-  - {fileID: 8300000, guid: 26a0d500de393474ab34a12321cc975f, type: 3}
 --- !u!82 &7828484265476608627
 AudioSource:
   m_ObjectHideFlags: 0
@@ -525,6 +510,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 441000, guid: 5d476fdbb7a864646aa6a217aa4e6166, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19817940, guid: 5d476fdbb7a864646aa6a217aa4e6166, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19840164, guid: 5d476fdbb7a864646aa6a217aa4e6166, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19848896, guid: 5d476fdbb7a864646aa6a217aa4e6166, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19855056, guid: 5d476fdbb7a864646aa6a217aa4e6166, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19857290, guid: 5d476fdbb7a864646aa6a217aa4e6166, type: 3}
+      propertyPath: playOnAwake
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
