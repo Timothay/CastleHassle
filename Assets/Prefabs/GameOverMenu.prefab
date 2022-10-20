@@ -258,6 +258,7 @@ GameObject:
   - component: {fileID: 4502937328565905184}
   - component: {fileID: 837841868923076449}
   - component: {fileID: 5519224719411079799}
+  - component: {fileID: 8591786873597700582}
   m_Layer: 0
   m_Name: Quit Text
   m_TagString: Untagged
@@ -383,6 +384,18 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &8591786873597700582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3068453500699567589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b92b17bda555504489f0ddd5d647d3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4229432998061906546
 GameObject:
   m_ObjectHideFlags: 0
@@ -496,6 +509,7 @@ GameObject:
   - component: {fileID: 4834532789245343976}
   - component: {fileID: 3252131381170666198}
   - component: {fileID: 5140093767195712822}
+  - component: {fileID: 9032755687481255863}
   m_Layer: 0
   m_Name: Restart Text
   m_TagString: Untagged
@@ -621,6 +635,18 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &9032755687481255863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4251535907671135501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc4c813f04744a2498d6460f480b7950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5800137416019452554
 GameObject:
   m_ObjectHideFlags: 0
@@ -632,6 +658,7 @@ GameObject:
   - component: {fileID: 7830579176183117199}
   - component: {fileID: 7275917921856577579}
   - component: {fileID: 6432199016605605639}
+  - component: {fileID: 1171914964244308101}
   m_Layer: 0
   m_Name: GameOverText (1)
   m_TagString: Untagged
@@ -757,6 +784,18 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &1171914964244308101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5800137416019452554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de659c5896f8e52418213f70378d481b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5844019576561538250
 GameObject:
   m_ObjectHideFlags: 0
