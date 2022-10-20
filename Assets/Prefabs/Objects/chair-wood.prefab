@@ -49,6 +49,8 @@ GameObject:
   - component: {fileID: 1026731109893953687}
   - component: {fileID: -223265307661083161}
   - component: {fileID: 3531231481518278622}
+  - component: {fileID: 3710256900509709280}
+  - component: {fileID: 558115424399934069}
   m_Layer: 7
   m_Name: chair-wood
   m_TagString: Throwable
@@ -134,7 +136,7 @@ MeshCollider:
   m_GameObject: {fileID: 3992100765731854499}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
@@ -413,6 +415,32 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!65 &3710256900509709280
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3992100765731854499}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.65974224, y: 0.51977867, z: 0.52446175}
+  m_Center: {x: 0.00084644556, y: 0.25988933, z: 0.010624111}
+--- !u!65 &558115424399934069
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3992100765731854499}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.65974224, y: 0.6849162, z: 0.21548527}
+  m_Center: {x: 0.00084644556, y: 0.7645875, z: -0.25366125}
 --- !u!1 &6842612917618137031
 GameObject:
   m_ObjectHideFlags: 0

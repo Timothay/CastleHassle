@@ -18,6 +18,8 @@ GameObject:
   - component: {fileID: 1756713014986542740}
   - component: {fileID: 2845690635167851028}
   - component: {fileID: -8266890908214095295}
+  - component: {fileID: 1001054461786637421}
+  - component: {fileID: 2409769325114222443}
   m_Layer: 7
   m_Name: axe
   m_TagString: Throwable
@@ -103,7 +105,7 @@ MeshCollider:
   m_GameObject: {fileID: 2666088198244894000}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
@@ -382,6 +384,32 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!65 &1001054461786637421
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2666088198244894000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.04980032, y: 0.6638115, z: 0.114914805}
+  m_Center: {x: 0.021279328, y: 0.31877378, z: -0.0032809582}
+--- !u!65 &2409769325114222443
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2666088198244894000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.04980032, y: 0.1910817, z: 0.26697105}
+  m_Center: {x: 0.021279328, y: 0.5551386, z: 0.07274711}
 --- !u!1 &3072095164363295023
 GameObject:
   m_ObjectHideFlags: 0

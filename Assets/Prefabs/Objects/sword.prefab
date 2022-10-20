@@ -80,6 +80,8 @@ GameObject:
   - component: {fileID: 6494077430852293172}
   - component: {fileID: 8564034871640188388}
   - component: {fileID: 7828484265476608627}
+  - component: {fileID: 7336166306508696161}
+  - component: {fileID: 1138795511045169130}
   m_Layer: 7
   m_Name: sword
   m_TagString: Throwable
@@ -165,7 +167,7 @@ MeshCollider:
   m_GameObject: {fileID: 8163384389934482638}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
@@ -444,6 +446,32 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!65 &7336166306508696161
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8163384389934482638}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.09988475, y: 1.0794592, z: 0.061327443}
+  m_Center: {x: 0.006388694, y: 0.42879903, z: 0.000000009313226}
+--- !u!65 &1138795511045169130
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8163384389934482638}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.27606788, y: 0.04529997, z: 0.061327443}
+  m_Center: {x: 0, y: 0.11269255, z: 0.000000009313226}
 --- !u!1001 &3432807487761258660
 PrefabInstance:
   m_ObjectHideFlags: 0
