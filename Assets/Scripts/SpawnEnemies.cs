@@ -25,7 +25,6 @@ public class SpawnEnemies : MonoBehaviour
         }else{
             xPos = Random.Range(-26, 30);
             zPos = Random.Range(-24, -25);
-            spawnable = 0;
             numberOfEnemies = Random.Range(leastNumberOfEnemies, MaxNumberOfEnemies + 1);
             StartCoroutine(EnemySpawning());
             timeToNewSpawn = 15f;
@@ -48,6 +47,7 @@ public class SpawnEnemies : MonoBehaviour
         Vector3[] directions = new Vector3[] { -Vector3.right, Vector3.forward, Vector3.right, -Vector3.forward, -Vector3.right, Vector3.forward, Vector3.right, -Vector3.forward, -Vector3.right, Vector3.forward, Vector3.right, -Vector3.forward };
         for (int i = 0; i < numberOfEnemies; i++)
         {
+            spawnable = Random.Range(0, 3);
             clone = Instantiate(walkingEnemies[spawnable], new Vector3(xPos, 4.23f, zPos) + directions[i] * spawnDistance, Quaternion.identity);
         }
         yield return new WaitForSeconds(timeToNewSpawn);

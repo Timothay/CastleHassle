@@ -20,6 +20,7 @@ TagManager:
   - EnemyPath6
   - EnemyPath7
   - EnemyPath8
+  - Arrow
   layers:
   - Default
   - TransparentFX
