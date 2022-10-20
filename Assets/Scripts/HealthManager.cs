@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class HealthManager : MonoBehaviour
 {
+    public GameObject gameOverMenu;
+    public bool isGameOver;
     private const float MAX_HEALTH = 1000f;
     public float health = MAX_HEALTH;
     private Image healthBar;
@@ -18,6 +20,10 @@ public class HealthManager : MonoBehaviour
     void Update()
     {
         healthBar.fillAmount = health / MAX_HEALTH;   
+        if(health <= 0)
+        {
+            gameOverMenu.SetActive(true);
+        }
     }
    
 }
