@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ArcherShoot : MonoBehaviour
 {
-    public float speed = 10f;
+    private float speed = 10f;
     private GameObject player;
     private bool isStopped = false;
     // Start is called before the first frame update
@@ -23,7 +23,7 @@ public class ArcherShoot : MonoBehaviour
         }
         if(other.gameObject.tag == "Player")
         {
-            GameObject.Find("Health").GetComponent<HealthManager>().health -= 50;
+            GameObject.Find("Health").GetComponent<HealthManager>().health -= 100;
             Destroy(this.gameObject);
         }
     }

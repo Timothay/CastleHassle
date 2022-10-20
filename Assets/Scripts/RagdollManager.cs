@@ -55,7 +55,7 @@ public class RagdollManager : MonoBehaviour
   {
     if (collision.gameObject.tag == "Throwable")
     {
-      if(GameObject.Find("Health").GetComponent<HealthManager>().isGameOver == true)
+      if(GameObject.Find("Health").GetComponent<HealthManager>().isGameOver == false)
       {
         GameObject.Find("KillCount").GetComponent<KillCountManager>().killCount += 1;
       }

@@ -5,7 +5,7 @@ using UnityEngine;
 public class ArcherManager : MonoBehaviour
 {
     private Animator archerAnimation;
-    public float timeToShoot = 10f;
+    private float timeToShoot = 20f;
     public GameObject arrow;
     // Start is called before the first frame update
     void Start()
@@ -31,7 +31,7 @@ public class ArcherManager : MonoBehaviour
         else
         {
             StartCoroutine(ArcherShoot());
-            timeToShoot = 10f;
+            timeToShoot = 20f;
         }
     }
 }
