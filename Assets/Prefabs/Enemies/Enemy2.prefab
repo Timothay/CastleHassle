@@ -2338,7 +2338,7 @@ GameObject:
   - component: {fileID: 175082524354530594}
   - component: {fileID: 5268196481428619888}
   m_Layer: 0
-  m_Name: Enemy1
+  m_Name: Enemy2
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2638,7 +2638,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a34ffd8251f52174b89ec7c4e3d78e21, type: 2}
+  - {fileID: 2100000, guid: a803dca6c7758524c89a1606f9776a29, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2859,7 +2859,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c79855c6f54ed954293d041acc3120a8, type: 2}
+  - {fileID: 2100000, guid: a803dca6c7758524c89a1606f9776a29, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3005,7 +3005,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a34ffd8251f52174b89ec7c4e3d78e21, type: 2}
+  - {fileID: 2100000, guid: a803dca6c7758524c89a1606f9776a29, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

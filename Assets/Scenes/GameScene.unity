@@ -6197,13 +6197,25 @@ PrefabInstance:
     - target: {fileID: 6287320286032958420, guid: 8384c07a6286af142a9dc902d1d23999,
         type: 3}
       propertyPath: walkingEnemies.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6287320286032958420, guid: 8384c07a6286af142a9dc902d1d23999,
         type: 3}
       propertyPath: walkingEnemies.Array.data[0]
       value: 
       objectReference: {fileID: 7146616286965409081, guid: 2f81fe5d2873e9846866b63578c34179,
+        type: 3}
+    - target: {fileID: 6287320286032958420, guid: 8384c07a6286af142a9dc902d1d23999,
+        type: 3}
+      propertyPath: walkingEnemies.Array.data[1]
+      value: 
+      objectReference: {fileID: 7146616286965409081, guid: 005f7babbc9161843bcb4f956d69b46f,
+        type: 3}
+    - target: {fileID: 6287320286032958420, guid: 8384c07a6286af142a9dc902d1d23999,
+        type: 3}
+      propertyPath: walkingEnemies.Array.data[2]
+      value: 
+      objectReference: {fileID: 7146616286965409081, guid: 9b52da152461f124098ec9f2cdfc684c,
         type: 3}
     - target: {fileID: 6287320286032958423, guid: 8384c07a6286af142a9dc902d1d23999,
         type: 3}
