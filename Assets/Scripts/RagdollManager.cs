@@ -24,6 +24,7 @@ public class RagdollManager : MonoBehaviour
     this.GetComponent<NavMeshAgent>().enabled = false;
     ThisEnemyAnimator.enabled = false;
     SoundManager.soundManager.PlayHurtSound();
+    SoundManager.soundManager.PlayBonkSound();
     foreach (Collider coll in ragdollColliders)
     {
       coll.enabled = true;
@@ -55,7 +56,7 @@ public class RagdollManager : MonoBehaviour
   {
     if (collision.gameObject.tag == "Throwable")
     {
-      if(GameObject.Find("Health").GetComponent<HealthManager>().isGameOver == false)
+      if (GameObject.Find("Health").GetComponent<HealthManager>().isGameOver == false)
       {
         GameObject.Find("KillCount").GetComponent<KillCountManager>().killCount += 1;
       }

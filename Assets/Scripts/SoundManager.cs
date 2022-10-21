@@ -4,25 +4,34 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
-    public static SoundManager soundManager;
+  public static SoundManager soundManager;
 
-    AudioSource audioSource;
-    [SerializeField] AudioClip[] hurtSounds;
+  AudioSource audioSource;
+  [SerializeField] AudioClip[] hurtSounds;
+  [SerializeField] AudioClip bonkSound;
 
-    int randomHurtSounds;
+  int randomHurtSounds;
 
-    void Start()
+  void Start()
+  {
+    soundManager = this;
+    audioSource = GetComponent<AudioSource>();
+  }
+
+  public void PlayHurtSound()
+  {
+    if (!audioSource.isPlaying)
     {
-        soundManager = this;
-        audioSource = GetComponent<AudioSource>();
+      randomHurtSounds = Random.Range(0, hurtSounds.Length);
+      audioSource.PlayOneShot(hurtSounds[randomHurtSounds]);
     }
+  }
 
-    public void PlayHurtSound()
+  public void PlayBonkSound()
+  {
+    if (!audioSource.isPlaying)
     {
-        if (!audioSource.isPlaying)
-        {
-            randomHurtSounds = Random.Range(0, hurtSounds.Length);
-            audioSource.PlayOneShot(hurtSounds[randomHurtSounds]);
-        }
+      audioSource.PlayOneShot(bonkSound);
     }
+  }
 }
