@@ -254,6 +254,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hurtSounds:
   - {fileID: 8300000, guid: faed21a02bca40c469a3f6ab95c5145d, type: 3}
+  bonkSound: {fileID: 0}
 --- !u!82 &2129256077572375887
 AudioSource:
   m_ObjectHideFlags: 0
@@ -266,7 +267,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0
   m_Pitch: 1
   Loop: 0
   Mute: 0

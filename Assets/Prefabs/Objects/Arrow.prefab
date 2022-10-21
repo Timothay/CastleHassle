@@ -146,7 +146,7 @@ Transform:
   m_GameObject: {fileID: 7796180250326921745}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.70710677}
   m_LocalPosition: {x: -16.680372, y: 12.784331, z: -35.768154}
-  m_LocalScale: {x: 0.04232331, y: 0.04232331, z: 0.04232331}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6220618340969538355}
@@ -165,7 +165,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b6e3ca3a1dca3641ba1cde50e0a406a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
 --- !u!114 &3900206596667143325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -180,6 +179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hurtSounds:
   - {fileID: 8300000, guid: 26a0d500de393474ab34a12321cc975f, type: 3}
+  bonkSound: {fileID: 0}
 --- !u!82 &620985599301296761
 AudioSource:
   m_ObjectHideFlags: 0
@@ -319,15 +319,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 422962, guid: 0698273b88ba93745acd6770db56deac, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.72
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 422962, guid: 0698273b88ba93745acd6770db56deac, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.72
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 422962, guid: 0698273b88ba93745acd6770db56deac, type: 3}
       propertyPath: m_LocalScale.z
-      value: 2.72
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 422962, guid: 0698273b88ba93745acd6770db56deac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -335,7 +335,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 422962, guid: 0698273b88ba93745acd6770db56deac, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.18
+      value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 422962, guid: 0698273b88ba93745acd6770db56deac, type: 3}
       propertyPath: m_LocalPosition.z
